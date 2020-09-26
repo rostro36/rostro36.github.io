@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home -- Jannik Gut"
+title: "Main"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
