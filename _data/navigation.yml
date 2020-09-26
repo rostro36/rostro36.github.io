@@ -1,10 +1,11 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-   
+
   - title: "Work"
     url: /teaching/    
+
+  - title: "Homeworks"
+    url: /publications/
     
   - title: "Free time projects"
     url: /portfolio/
