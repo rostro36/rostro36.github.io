@@ -2,14 +2,11 @@
 main:
   - title: "Publications"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
+   
+  - title: "Work"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Free time projects"
     url: /portfolio/
         
   - title: "Blog Posts"
