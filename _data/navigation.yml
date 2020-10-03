@@ -2,19 +2,13 @@
 main:
 
   - title: "Work"
-    url: /teaching/    
+    url: /work/    
 
   - title: "Homeworks"
-    url: /publications/
+    url: /homeworks/
     
   - title: "Free time projects"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+    url: /projects/
     
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
