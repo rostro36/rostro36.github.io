@@ -25,9 +25,10 @@ This physical activity is badly needed since I stress my digestive system often 
 When I read about them in the local newspaper I usually also read the rest about national and international politics and the economy.
 ## Contact
 The easiest way to contact me is via one of the methods listed on the left. They are links to my social sites or my e-mail address.
+'''
+{\% include base_path \%}
 
-{% include base_path %}
-
-{% for post in site.work reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{\% for post in site.work reversed \%}
+  {\% include archive-single.html \%}
+{\% endfor \%}
+'''
