@@ -4,31 +4,44 @@ title: "Work Responsibilities"
 permalink: /work/
 author_profile: true
 ---
+# Data Analyst Internship at Roche
+After my Bachelors I did a 6-month internship from August 2019 to February 2020 in the IT for HR department at Roche in Basel as Data Analyst.
+During this time I learnt a lot about the structure of a big company, talking with non-IT people including senior management and lawyers and creating a stable solution. 
+## Competitive Intelligence
+The main reason for my internship was the Computational Intelligence project, for which I talked with senior non-technical clients and helped to:
+- stabilize and maintaining the solution written in Python, which runs on an AWS EC2 and AWS RDS (mySQL) instance
+- solve the underlying NLP classification problem with Python
+- design the final Tableau report 
+- adding stock and news information of competitors
+- automating personal notifications
+- writing the user documentation in PowerPoint
+- creating the gSite, which holds the Tableau, the documentation, a timeline and more information
+In the end our team managed to successfully launch the project and hand it over to our clients.
+## Splunk
+Due to the computer science and IT security background I obtained with my Bachelors degree and especially my thesis, I was tasked to help counseling in the decision for a new monitoring solution for the ERP *Workday*.
 
-My name is Jannik Gut and I am a Computer Science Master Student specialising in Machine Learning and Natural Language Processing at ETH Zürich in Switzerland.
+After discussing with stakeholders from the organisation wide monitoring group (that acts on alerts), the security engineering group (that supports in enabling the solution) and the admins of the ERP (that effectively have to maintain the solution), which I shared the office with and were my clients, we decided on using *Splunk*. This decision was taken, because Splunk was already deployed in parts of the organisation (so there was support), the other monitoring software in the organisation was not powerful enough for the expectations of the clients and introducing a new monitoring solution was not possible, as it would need to much resources.
 
-On this website you can find out more about:
-- [my work experience](https://rostro36.github.io/work/)
-- [my academic career and the projects I did in this time](https://rostro36.github.io/homeworks/)
-- [the projects I do in my free time](https://rostro36.github.io/projects/)
+First tests of how well *Splunk* works with *Workday*, for which I also received the *Splunk Fundamentals 1* training, were successfull after some work and *Splunk* is still a progressing project in the organisation.
+## Innovations Report
+One of my first tasks was to create the quartally report about the new innovations in the HR department of the organisation, which consists of mailing each of the numerous offices of the organization around the globe, hoping to get a good answer or mailing again and then putting those responses in a PDF.
 
-## CV
-Or if you want all this information in a single page or a [PDF](https://rostro36.github.io/files/Jannik_Gut_CV.pdf), you can download it [here](https://rostro36.github.io/cv/).
+Instead of doing that, I set up a innovations website, that has a form for the offices to submit the innovations and also displays the latest submissions.
 
-## Hobbies
-Other than working on computer science projects I enjoy hiking up mountains and climbing some smaller hills with my bicycle in the summer.
+The advantage for the submitters is that they know all the questions and after some time know what to expect, they can also submit whenever they want and not just when the intern emails them.
 
-When that is not possible due to the season I go skiing or as a last resort go jogging to stay healthy.
+For the readers it is beneficial, because often they are also the submitters and know what they can find on the website and for the others, due to the interactive form of a website they have the ability to filter the submissions and easier access the link and get in contact with the submitter.
 
-This physical activity is badly needed since I stress my digestive system often with cakes or other desserts that I made myself and I also stress my heart too much by supporting Chelsea F.C.  in England and the local teams F.C. Luzern and EV Zug in Switzerland too much. (Thankfully, the local bicycle rider stopped riding for GCs.)
+The website successfully launched.
+## ERP Specification Automation
+After the competitive intelligence project successfully finished I had more capacity and decided to dedicate my time to the automation of the ERP specification, which are numerous Google Docs documents that are linked with a Google Sheet.
 
-When I read about them in the local newspaper I usually also read the rest about national and international politics and the economy.
-## Contact
-The easiest way to contact me is via one of the methods listed on the left. They are links to my social sites or my e-mail address.
-'''
-{\% include base_path \%}
+The first step was to look at the documents at hand and find patterns. The other basic step was to talk with the stakeholders and find out their problems and how I can help them.
+My proposed solution was a automatic document creation, which reads out the values from the Google Sheets document and creates a new Google Docs document based on a template. The new file is then also linked at the Google Sheet. After the first creation the information can also be copied automatically by the use of some marks.
 
-{\% for post in site.work reversed \%}
-  {\% include archive-single.html \%}
-{\% endfor \%}
-'''
+Next to the saved work another benefit is that the new documentation is unified and there is a clean workflow. 
+## Recruiting Software Report
+Another assignment for me was to give council during the acquisition process of a new recruiting software. I was given the purpose of the solution and the overall hiring philosophy, but other than that I should stay rather independent and give my view as a specialist.
+Since Roche is a multinational company that values diversity it was important to select a solution that was able to fit into existing environment, understands several languages and has a form of fairness integrated.
+
+After numerous talks with different vendors and scouting of even more websites it was clear that no current solution could fulfill all of the (very high) demands, but it was important to me that a solution was chosen, that is transparent and explains it's methods, so that there is at least basic protection against a lawsuit.
