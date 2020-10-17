@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "Home"
+title: "Welcome"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# Welcome to my website!
 
 My name is Jannik Gut and I am a Computer Science Master Student specialising in Machine Learning and Natural Language Processing at ETH Zürich in Switzerland.
 
@@ -18,7 +16,7 @@ On this website you can find out more about:
 - [the projects I do in my free time](https://rostro36.github.io/projects/)
 
 ## CV
-Or if you want all this information in a single page or a PDF, you can download it [here](https://rostro36.github.io/cv/).
+Or if you want all this information in a single page or a [PDF](https://rostro36.github.io/files/Jannik_Gut_CV.pdf), you can download it [here](https://rostro36.github.io/cv/).
 
 ## Hobbies
 Other than working on computer science projects I enjoy hiking up mountains and climbing some smaller hills with my bicycle in the summer.
